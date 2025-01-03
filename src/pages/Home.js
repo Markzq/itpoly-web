@@ -58,10 +58,10 @@ const styles = {
   container: {
     display: "flex",
     height: "100vh",
-    backgroundColor: "#282c34",
-    color: "#fff",
+    backgroundColor: "#ffffff", // เปลี่ยนสีพื้นหลังให้เป็นสีขาว
+    color: "#333", // ใช้สีตัวหนังสือเป็นสีเข้ม
     padding: "20px",
-    fontFamily: "'Garamond', serif",
+    fontFamily: "'Helvetica Neue', sans-serif", // ใช้ฟอนต์ที่เรียบง่าย
   },
   imageContainer: {
     display: "flex",
@@ -74,37 +74,33 @@ const styles = {
   image: {
     width: "100%",
     height: "auto",
-    borderRadius: "10px",
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)",
+    borderRadius: "8px", // ปรับมุมให้เรียบ
     marginBottom: "15px",
   },
   content: {
     flex: 1,
     padding: "20px",
-    backgroundColor: "#f8f9fa",
-    borderRadius: "15px",
-    boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)",
+    backgroundColor: "#f4f4f4", // ใช้พื้นหลังสีเทาอ่อน
+    borderRadius: "8px", // ลดมุมให้เรียบ
   },
   title: {
-    fontSize: "3em",
+    fontSize: "2.5em", // ขนาดตัวอักษรเล็กลง
     marginBottom: "10px",
-    color: "#FFD700",
-    textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+    color: "#222", // สีเข้มขึ้นเพื่อให้ดูเรียบ
+    fontWeight: "bold", // ให้ตัวหนาเพื่อเน้น
     textAlign: "center",
   },
   description: {
-    fontSize: "1.2em",
-    lineHeight: "1.8",
+    fontSize: "1.1em",
+    lineHeight: "1.6",
     marginBottom: "30px",
     textAlign: "center",
-    color: "#f0e68c",
+    color: "#666", // สีตัวหนังสืออ่อนลงเพื่อให้ดูมินิมอล
   },
   section: {
-    backgroundColor: "rgba(255, 255, 255, 0.8)",
+    backgroundColor: "transparent", // ไม่มีพื้นหลังให้ดูโปร่งใส
     padding: "20px",
-    borderRadius: "15px",
-    boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)",
-    backdropFilter: "blur(5px)",
+    borderRadius: "8px",
     marginTop: "30px",
   },
   ul: {
@@ -112,15 +108,15 @@ const styles = {
     padding: 0,
   },
   li: {
-    fontSize: "1.2em",
-    padding: "10px",
-    borderBottom: "2px solid #FFD700",
-    color: "#eee",
-    transition: "transform 0.3s ease-in-out, color 0.3s ease-in-out",
+    fontSize: "1.1em",
+    padding: "8px",
+    borderBottom: "1px solid #ddd", // เส้นขอบบางๆ ที่มุมล่าง
+    color: "#333", // ใช้สีเข้มเพื่อให้ตัวหนังสือดูชัด
+    transition: "transform 0.2s ease, color 0.2s ease",
   },
   liHover: {
-    transform: "scale(1.05)",
-    color: "#FFD700",
+    transform: "scale(1.02)", // ขยายเล็กน้อยเมื่อ hover
+    color: "#000", // สีเข้มขึ้นเมื่อ hover
   },
 };
 

@@ -7,7 +7,6 @@ function Footer() {
         <p style={styles.text}>© 2024 My Small Web. All Rights Reserved.</p>
         <div style={styles.socialLinks}>
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" style={styles.socialLink}>Facebook</a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" style={styles.socialLink}>Twitter</a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" style={styles.socialLink}>LinkedIn</a>
         </div>
       </div>
